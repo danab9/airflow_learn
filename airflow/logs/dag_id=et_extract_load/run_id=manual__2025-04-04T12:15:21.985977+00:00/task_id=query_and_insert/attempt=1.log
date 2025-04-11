@@ -1,0 +1,32 @@
+[2025-04-04T12:15:23.900+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-04T12:15:23.908+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: et_extract_load.query_and_insert manual__2025-04-04T12:15:21.985977+00:00 [queued]>
+[2025-04-04T12:15:23.912+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: et_extract_load.query_and_insert manual__2025-04-04T12:15:21.985977+00:00 [queued]>
+[2025-04-04T12:15:23.913+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-04T12:15:24.053+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): query_and_insert> on 2025-04-04 12:15:21.985977+00:00
+[2025-04-04T12:15:24.060+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2163) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-04T12:15:24.062+0000] {standard_task_runner.py:72} INFO - Started process 2164 to run task
+[2025-04-04T12:15:24.063+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'et_extract_load', 'query_and_insert', 'manual__2025-04-04T12:15:21.985977+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/etl_extract_load.py', '--cfg-path', '/tmp/tmpt4rqiref']
+[2025-04-04T12:15:24.064+0000] {standard_task_runner.py:105} INFO - Job 39: Subtask query_and_insert
+[2025-04-04T12:15:24.116+0000] {task_command.py:467} INFO - Running <TaskInstance: et_extract_load.query_and_insert manual__2025-04-04T12:15:21.985977+00:00 [running]> on host 8bfd2e589ccf
+[2025-04-04T12:15:24.205+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='et_extract_load' AIRFLOW_CTX_TASK_ID='query_and_insert' AIRFLOW_CTX_EXECUTION_DATE='2025-04-04T12:15:21.985977+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-04T12:15:21.985977+00:00'
+[2025-04-04T12:15:24.208+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-04T12:15:24.209+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-04T12:15:24.209+0000] {logging_mixin.py:190} INFO - Current task name:query_and_insert state:running start_date:2025-04-04 12:15:23.908779+00:00
+[2025-04-04T12:15:24.209+0000] {logging_mixin.py:190} INFO - Dag name:et_extract_load and current dag run status:running
+[2025-04-04T12:15:24.210+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-04T12:15:24.219+0000] {base.py:84} INFO - Retrieving connection 'PostgresSQL_connection_1'
+[2025-04-04T12:15:24.236+0000] {logging_mixin.py:190} INFO - Error: relation "staging.dim_product" does not exist
+LINE 2:                 INSERT INTO staging.dim_product (product_id,...
+                                    ^
+[2025-04-04T12:15:24.237+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-04T12:15:24.257+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-04T12:15:24.259+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=et_extract_load, task_id=query_and_insert, run_id=manual__2025-04-04T12:15:21.985977+00:00, execution_date=20250404T121521, start_date=20250404T121523, end_date=20250404T121524
+[2025-04-04T12:15:24.293+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-04T12:15:24.294+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-04T12:15:24.295+0000] {logging_mixin.py:190} INFO - Dag name:et_extract_load queued_at:2025-04-04 12:15:21.995911+00:00
+[2025-04-04T12:15:24.296+0000] {logging_mixin.py:190} INFO - Task hostname:8bfd2e589ccf operator:PythonOperator
+[2025-04-04T12:15:24.320+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-04T12:15:24.340+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-04T12:15:24.342+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

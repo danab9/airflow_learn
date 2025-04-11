@@ -1,0 +1,33 @@
+[2025-04-09T16:16:44.954+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-09T16:16:45.071+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: et_extract_load.insert_transformed_to_core manual__2025-04-09T16:16:38.336132+00:00 [queued]>
+[2025-04-09T16:16:45.102+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: et_extract_load.insert_transformed_to_core manual__2025-04-09T16:16:38.336132+00:00 [queued]>
+[2025-04-09T16:16:45.102+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-09T16:16:45.108+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): insert_transformed_to_core> on 2025-04-09 16:16:38.336132+00:00
+[2025-04-09T16:16:45.113+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=24638) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-09T16:16:45.114+0000] {standard_task_runner.py:72} INFO - Started process 24639 to run task
+[2025-04-09T16:16:45.115+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'et_extract_load', 'insert_transformed_to_core', 'manual__2025-04-09T16:16:38.336132+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/etl_extract_load.py', '--cfg-path', '/tmp/tmpgrmgskpx']
+[2025-04-09T16:16:45.115+0000] {standard_task_runner.py:105} INFO - Job 64: Subtask insert_transformed_to_core
+[2025-04-09T16:16:45.139+0000] {task_command.py:467} INFO - Running <TaskInstance: et_extract_load.insert_transformed_to_core manual__2025-04-09T16:16:38.336132+00:00 [running]> on host 8bfd2e589ccf
+[2025-04-09T16:16:45.180+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='et_extract_load' AIRFLOW_CTX_TASK_ID='insert_transformed_to_core' AIRFLOW_CTX_EXECUTION_DATE='2025-04-09T16:16:38.336132+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-09T16:16:38.336132+00:00'
+[2025-04-09T16:16:45.182+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-09T16:16:45.182+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-09T16:16:45.183+0000] {logging_mixin.py:190} INFO - Current task name:insert_transformed_to_core state:running start_date:2025-04-09 16:16:45.097874+00:00
+[2025-04-09T16:16:45.183+0000] {logging_mixin.py:190} INFO - Dag name:et_extract_load and current dag run status:running
+[2025-04-09T16:16:45.183+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-09T16:16:45.188+0000] {base.py:84} INFO - Retrieving connection 'PostgresSQL_connection_1'
+[2025-04-09T16:16:45.199+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:287: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2025-04-09T16:16:45.212+0000] {logging_mixin.py:190} INFO - Data transformation and insertion to Core complete.
+[2025-04-09T16:16:45.213+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-09T16:16:45.218+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-09T16:16:45.219+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=et_extract_load, task_id=insert_transformed_to_core, run_id=manual__2025-04-09T16:16:38.336132+00:00, execution_date=20250409T161638, start_date=20250409T161645, end_date=20250409T161645
+[2025-04-09T16:16:45.229+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-09T16:16:45.230+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-09T16:16:45.230+0000] {logging_mixin.py:190} INFO - Dag name:et_extract_load queued_at:2025-04-09 16:16:38.358823+00:00
+[2025-04-09T16:16:45.230+0000] {logging_mixin.py:190} INFO - Task hostname:8bfd2e589ccf operator:PythonOperator
+[2025-04-09T16:16:45.249+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-09T16:16:45.257+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-09T16:16:45.258+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

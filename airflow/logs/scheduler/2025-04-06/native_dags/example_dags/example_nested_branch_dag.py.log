@@ -1,0 +1,581 @@
+[2025-04-06T00:13:07.008+0000] {processor.py:186} INFO - Started process (PID=76777) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:13:07.008+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T00:13:07.010+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:13:07.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:13:07.019+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:13:07.036+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:13:07.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T00:13:07.054+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:13:07.054+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T00:13:07.067+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-04-06T00:29:01.895+0000] {processor.py:186} INFO - Started process (PID=76842) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:29:01.896+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T00:29:01.898+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:29:01.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:29:01.909+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:29:01.926+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:29:01.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T00:29:01.951+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:29:01.951+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T00:29:01.966+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.076 seconds
+[2025-04-06T00:30:22.961+0000] {processor.py:186} INFO - Started process (PID=76907) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:30:22.963+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T00:30:22.964+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:30:22.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:30:22.974+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:30:22.991+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:30:22.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T00:30:23.147+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:30:23.147+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T00:30:23.160+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.204 seconds
+[2025-04-06T00:32:32.224+0000] {processor.py:186} INFO - Started process (PID=76972) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:32:32.225+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T00:32:32.227+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:32:32.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:32:32.238+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T00:32:32.260+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:32:32.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T00:32:32.422+0000] {logging_mixin.py:190} INFO - [2025-04-06T00:32:32.422+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T00:32:32.434+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.215 seconds
+[2025-04-06T02:33:26.174+0000] {processor.py:186} INFO - Started process (PID=77037) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:33:26.176+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T02:33:26.177+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:33:26.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:33:26.192+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:33:26.220+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:33:26.220+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:33:26.423+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:33:26.422+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T02:33:26.439+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.276 seconds
+[2025-04-06T02:50:09.175+0000] {processor.py:186} INFO - Started process (PID=77102) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:50:09.176+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T02:50:09.177+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:50:09.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:50:09.187+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:50:09.204+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:50:09.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:50:09.224+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:50:09.223+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T02:50:09.236+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T02:51:54.326+0000] {processor.py:186} INFO - Started process (PID=77167) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:51:54.328+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T02:51:54.329+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:51:54.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:51:54.339+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T02:51:54.356+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:51:54.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:51:54.374+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:51:54.374+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T02:51:54.387+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T04:01:39.606+0000] {processor.py:186} INFO - Started process (PID=77232) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:01:39.607+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T04:01:39.608+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:01:39.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:01:39.619+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:01:39.636+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:01:39.636+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T04:01:39.661+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:01:39.661+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T04:01:39.675+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.075 seconds
+[2025-04-06T04:03:24.333+0000] {processor.py:186} INFO - Started process (PID=77297) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:03:24.335+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T04:03:24.336+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:03:24.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:03:24.348+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:03:24.372+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:03:24.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T04:03:24.397+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:03:24.397+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T04:03:24.419+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.092 seconds
+[2025-04-06T04:04:44.856+0000] {processor.py:186} INFO - Started process (PID=77362) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:04:44.857+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T04:04:44.859+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:04:44.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:04:44.873+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T04:04:44.898+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:04:44.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T04:04:44.934+0000] {logging_mixin.py:190} INFO - [2025-04-06T04:04:44.934+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T04:04:44.955+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.106 seconds
+[2025-04-06T06:03:12.154+0000] {processor.py:186} INFO - Started process (PID=77427) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T06:03:12.155+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T06:03:12.156+0000] {logging_mixin.py:190} INFO - [2025-04-06T06:03:12.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T06:03:12.166+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T06:03:12.184+0000] {logging_mixin.py:190} INFO - [2025-04-06T06:03:12.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T06:03:12.204+0000] {logging_mixin.py:190} INFO - [2025-04-06T06:03:12.204+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T06:03:12.216+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T06:04:32.493+0000] {processor.py:186} INFO - Started process (PID=77492) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T06:04:32.495+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T06:04:32.496+0000] {logging_mixin.py:190} INFO - [2025-04-06T06:04:32.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T06:04:32.506+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T06:04:32.522+0000] {logging_mixin.py:190} INFO - [2025-04-06T06:04:32.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T06:04:32.540+0000] {logging_mixin.py:190} INFO - [2025-04-06T06:04:32.540+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T06:04:32.552+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-04-06T07:00:05.381+0000] {processor.py:186} INFO - Started process (PID=77557) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:00:05.382+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T07:00:05.383+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:00:05.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:00:05.394+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:00:05.413+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:00:05.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T07:00:05.431+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:00:05.431+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T07:00:05.444+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T07:18:33.650+0000] {processor.py:186} INFO - Started process (PID=77622) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:18:33.652+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T07:18:33.653+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:18:33.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:18:33.669+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:18:33.685+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:18:33.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T07:18:33.704+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:18:33.704+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T07:18:33.716+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.072 seconds
+[2025-04-06T07:20:18.171+0000] {processor.py:186} INFO - Started process (PID=77687) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:20:18.172+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T07:20:18.175+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:20:18.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:20:18.189+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:20:18.211+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:20:18.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T07:20:18.232+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:20:18.232+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T07:20:18.247+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.083 seconds
+[2025-04-06T07:21:37.939+0000] {processor.py:186} INFO - Started process (PID=77752) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:21:37.941+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T07:21:37.943+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:21:37.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:21:37.954+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T07:21:37.971+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:21:37.971+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T07:21:37.992+0000] {logging_mixin.py:190} INFO - [2025-04-06T07:21:37.991+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T07:21:38.004+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.071 seconds
+[2025-04-06T08:04:49.028+0000] {processor.py:186} INFO - Started process (PID=77817) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:04:49.030+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T08:04:49.031+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:04:49.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:04:49.041+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:04:49.058+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:04:49.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T08:04:49.076+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:04:49.075+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T08:04:49.087+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-04-06T08:06:34.293+0000] {processor.py:186} INFO - Started process (PID=77882) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:06:34.295+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T08:06:34.296+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:06:34.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:06:34.306+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:06:34.323+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:06:34.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T08:06:34.342+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:06:34.341+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T08:06:34.353+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T08:25:29.356+0000] {processor.py:186} INFO - Started process (PID=77947) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:25:29.358+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T08:25:29.359+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:25:29.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:25:29.370+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:25:29.387+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:25:29.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T08:25:29.407+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:25:29.407+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T08:25:29.419+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds
+[2025-04-06T08:26:49.787+0000] {processor.py:186} INFO - Started process (PID=78012) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:26:49.788+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T08:26:49.790+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:26:49.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:26:49.803+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:26:49.827+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:26:49.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T08:26:49.857+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:26:49.857+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T08:26:49.877+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.097 seconds
+[2025-04-06T08:28:33.849+0000] {processor.py:186} INFO - Started process (PID=78077) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:28:33.850+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T08:28:33.852+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:28:33.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:28:33.862+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T08:28:33.878+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:28:33.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T08:28:33.895+0000] {logging_mixin.py:190} INFO - [2025-04-06T08:28:33.895+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T08:28:33.907+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.062 seconds
+[2025-04-06T09:06:10.267+0000] {processor.py:186} INFO - Started process (PID=78142) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:06:10.268+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T09:06:10.270+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:06:10.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:06:10.282+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:06:10.302+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:06:10.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T09:06:10.328+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:06:10.328+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T09:06:10.346+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.086 seconds
+[2025-04-06T09:22:05.299+0000] {processor.py:186} INFO - Started process (PID=78207) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:22:05.300+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T09:22:05.301+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:22:05.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:22:05.312+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:22:05.330+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:22:05.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T09:22:05.351+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:22:05.351+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T09:22:05.364+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds
+[2025-04-06T09:38:00.123+0000] {processor.py:186} INFO - Started process (PID=78273) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:38:00.125+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T09:38:00.127+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:38:00.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:38:00.139+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:38:00.159+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:38:00.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T09:38:00.178+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:38:00.178+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T09:38:00.192+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.074 seconds
+[2025-04-06T09:39:20.860+0000] {processor.py:186} INFO - Started process (PID=78338) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:39:20.861+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T09:39:20.863+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:39:20.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:39:20.873+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:39:20.890+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:39:20.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T09:39:20.908+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:39:20.908+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T09:39:20.921+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T09:55:40.302+0000] {processor.py:186} INFO - Started process (PID=78403) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:55:40.306+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T09:55:40.308+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:55:40.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:55:40.326+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T09:55:40.356+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:55:40.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T09:55:40.390+0000] {logging_mixin.py:190} INFO - [2025-04-06T09:55:40.390+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T09:55:40.429+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.138 seconds
+[2025-04-06T10:21:55.474+0000] {processor.py:186} INFO - Started process (PID=78468) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:21:55.475+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T10:21:55.476+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:21:55.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:21:55.487+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:21:55.504+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:21:55.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T10:21:55.523+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:21:55.523+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T10:21:55.536+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T10:23:40.523+0000] {processor.py:186} INFO - Started process (PID=78533) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:23:40.524+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T10:23:40.525+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:23:40.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:23:40.535+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:23:40.552+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:23:40.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T10:23:40.573+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:23:40.572+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T10:23:40.586+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T10:24:59.709+0000] {processor.py:186} INFO - Started process (PID=78598) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:24:59.710+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T10:24:59.712+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:24:59.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:24:59.721+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T10:24:59.738+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:24:59.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T10:24:59.754+0000] {logging_mixin.py:190} INFO - [2025-04-06T10:24:59.754+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T10:24:59.766+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.062 seconds
+[2025-04-06T11:08:18.885+0000] {processor.py:186} INFO - Started process (PID=78663) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:08:18.886+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T11:08:18.887+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:08:18.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:08:18.898+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:08:18.918+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:08:18.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T11:08:18.936+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:08:18.936+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T11:08:18.947+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T11:24:14.667+0000] {processor.py:186} INFO - Started process (PID=78728) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:24:14.670+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T11:24:14.673+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:24:14.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:24:14.684+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:24:14.707+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:24:14.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T11:24:14.738+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:24:14.738+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T11:24:14.749+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.089 seconds
+[2025-04-06T11:25:34.394+0000] {processor.py:186} INFO - Started process (PID=78793) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:25:34.396+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T11:25:34.398+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:25:34.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:25:34.419+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:25:34.460+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:25:34.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T11:25:34.508+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:25:34.506+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T11:25:34.547+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.163 seconds
+[2025-04-06T11:56:53.629+0000] {processor.py:186} INFO - Started process (PID=78858) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:56:53.631+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T11:56:53.632+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:56:53.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:56:53.643+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T11:56:53.660+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:56:53.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T11:56:53.678+0000] {logging_mixin.py:190} INFO - [2025-04-06T11:56:53.678+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T11:56:53.690+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.067 seconds
+[2025-04-06T12:08:04.796+0000] {processor.py:186} INFO - Started process (PID=78923) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:08:04.798+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T12:08:04.799+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:08:04.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:08:04.815+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:08:04.838+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:08:04.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T12:08:04.874+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:08:04.874+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T12:08:04.898+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.109 seconds
+[2025-04-06T12:24:24.437+0000] {processor.py:186} INFO - Started process (PID=78988) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:24:24.439+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T12:24:24.440+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:24:24.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:24:24.450+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:24:24.468+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:24:24.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T12:24:24.486+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:24:24.486+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T12:24:24.498+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T12:25:44.590+0000] {processor.py:186} INFO - Started process (PID=79053) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:25:44.591+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T12:25:44.592+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:25:44.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:25:44.603+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:25:44.622+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:25:44.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T12:25:44.649+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:25:44.649+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T12:25:44.665+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.081 seconds
+[2025-04-06T12:42:53.858+0000] {processor.py:186} INFO - Started process (PID=79118) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:42:53.860+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T12:42:53.861+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:42:53.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:42:53.871+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T12:42:53.888+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:42:53.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T12:42:53.907+0000] {logging_mixin.py:190} INFO - [2025-04-06T12:42:53.907+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T12:42:53.919+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.067 seconds
+[2025-04-06T13:09:07.680+0000] {processor.py:186} INFO - Started process (PID=79183) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:09:07.682+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T13:09:07.683+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:09:07.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:09:07.694+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:09:07.710+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:09:07.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T13:09:07.730+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:09:07.730+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T13:09:07.744+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T13:25:27.530+0000] {processor.py:186} INFO - Started process (PID=79248) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:25:27.532+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T13:25:27.534+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:25:27.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:25:27.544+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:25:27.563+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:25:27.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T13:25:27.582+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:25:27.582+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T13:25:27.594+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T13:26:48.221+0000] {processor.py:186} INFO - Started process (PID=79313) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:26:48.222+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T13:26:48.224+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:26:48.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:26:48.234+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T13:26:48.251+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:26:48.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T13:26:48.273+0000] {logging_mixin.py:190} INFO - [2025-04-06T13:26:48.273+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T13:26:48.287+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.074 seconds
+[2025-04-06T14:10:39.601+0000] {processor.py:186} INFO - Started process (PID=79378) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:10:39.602+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T14:10:39.604+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:10:39.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:10:39.614+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:10:39.631+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:10:39.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T14:10:39.649+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:10:39.649+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T14:10:39.661+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T14:11:59.104+0000] {processor.py:186} INFO - Started process (PID=79443) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:11:59.105+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T14:11:59.106+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:11:59.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:11:59.117+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:11:59.133+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:11:59.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T14:11:59.151+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:11:59.151+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T14:11:59.167+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T14:28:18.658+0000] {processor.py:186} INFO - Started process (PID=79508) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:28:18.659+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T14:28:18.660+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:28:18.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:28:18.671+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:28:18.689+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:28:18.688+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T14:28:18.708+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:28:18.708+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T14:28:18.721+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T14:30:03.787+0000] {processor.py:186} INFO - Started process (PID=79573) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:30:03.788+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T14:30:03.789+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:30:03.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:30:03.800+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T14:30:03.818+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:30:03.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T14:30:03.836+0000] {logging_mixin.py:190} INFO - [2025-04-06T14:30:03.836+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T14:30:03.848+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T15:11:05.505+0000] {processor.py:186} INFO - Started process (PID=79638) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:11:05.507+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T15:11:05.508+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:11:05.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:11:05.527+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:11:05.547+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:11:05.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T15:11:05.569+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:11:05.569+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T15:11:05.583+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.084 seconds
+[2025-04-06T15:27:25.337+0000] {processor.py:186} INFO - Started process (PID=79703) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:27:25.340+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T15:27:25.342+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:27:25.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:27:25.355+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:27:25.383+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:27:25.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T15:27:25.413+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:27:25.413+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T15:27:25.427+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.095 seconds
+[2025-04-06T15:44:35.194+0000] {processor.py:186} INFO - Started process (PID=79768) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:44:35.195+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T15:44:35.196+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:44:35.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:44:35.207+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:44:35.226+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:44:35.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T15:44:35.247+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:44:35.247+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T15:44:35.261+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.073 seconds
+[2025-04-06T15:45:54.941+0000] {processor.py:186} INFO - Started process (PID=79833) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:45:54.942+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T15:45:54.943+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:45:54.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:45:54.953+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T15:45:54.969+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:45:54.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T15:45:54.988+0000] {logging_mixin.py:190} INFO - [2025-04-06T15:45:54.988+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T15:45:55.000+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-04-06T16:02:14.351+0000] {processor.py:186} INFO - Started process (PID=79892) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:02:14.352+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T16:02:14.354+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:02:14.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:02:14.365+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:02:14.383+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:02:14.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T16:02:14.405+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:02:14.405+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T16:02:14.419+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.074 seconds
+[2025-04-06T16:03:58.797+0000] {processor.py:186} INFO - Started process (PID=79956) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:03:58.799+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T16:03:58.800+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:03:58.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:03:58.812+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:03:58.831+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:03:58.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T16:03:58.851+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:03:58.851+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T16:03:58.864+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.073 seconds
+[2025-04-06T16:12:08.687+0000] {processor.py:186} INFO - Started process (PID=80026) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:12:08.692+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T16:12:08.697+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:12:08.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:12:08.748+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:12:08.789+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:12:08.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T16:12:08.823+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:12:08.823+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T16:12:08.843+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.189 seconds
+[2025-04-06T16:39:06.590+0000] {processor.py:186} INFO - Started process (PID=80085) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:39:06.592+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T16:39:06.593+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:39:06.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:39:06.604+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:39:06.621+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:39:06.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T16:39:06.640+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:39:06.639+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T16:39:06.653+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T16:40:52.062+0000] {processor.py:186} INFO - Started process (PID=80150) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:40:52.064+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T16:40:52.065+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:40:52.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:40:52.075+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T16:40:52.092+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:40:52.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T16:40:52.109+0000] {logging_mixin.py:190} INFO - [2025-04-06T16:40:52.109+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T16:40:52.121+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-04-06T17:13:06.764+0000] {processor.py:186} INFO - Started process (PID=80215) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:13:06.766+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:13:06.768+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:13:06.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:13:06.784+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:13:06.809+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:13:06.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:13:06.839+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:13:06.839+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:13:06.860+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.103 seconds
+[2025-04-06T17:14:26.321+0000] {processor.py:186} INFO - Started process (PID=80280) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:14:26.323+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:14:26.324+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:14:26.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:14:26.335+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:14:26.353+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:14:26.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:14:26.375+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:14:26.375+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:14:26.391+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.075 seconds
+[2025-04-06T17:45:46.719+0000] {processor.py:186} INFO - Started process (PID=80345) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:45:46.721+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:45:46.722+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:45:46.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:45:46.733+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:45:46.750+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:45:46.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:45:46.768+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:45:46.768+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:45:46.779+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T17:47:06.376+0000] {processor.py:186} INFO - Started process (PID=80410) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:47:06.378+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:47:06.379+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:47:06.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:47:06.390+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:47:06.407+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:47:06.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:47:06.427+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:47:06.427+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:47:06.439+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T17:54:50.486+0000] {processor.py:186} INFO - Started process (PID=80475) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:54:50.489+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:54:50.490+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:54:50.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:54:50.500+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:54:50.517+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:54:50.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:54:50.536+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:54:50.536+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:54:50.549+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T17:55:21.007+0000] {processor.py:186} INFO - Started process (PID=80540) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:55:21.008+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:55:21.009+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:55:21.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:55:21.020+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:55:21.037+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:55:21.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:55:21.056+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:55:21.056+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:55:21.072+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds
+[2025-04-06T17:55:52.119+0000] {processor.py:186} INFO - Started process (PID=80611) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:55:52.124+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:55:52.137+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:55:52.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:55:52.348+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:55:52.384+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:55:52.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:55:52.481+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:55:52.480+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:55:52.513+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.400 seconds
+[2025-04-06T17:58:08.002+0000] {processor.py:186} INFO - Started process (PID=80670) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:58:08.003+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T17:58:08.004+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:58:08.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:58:08.015+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T17:58:08.031+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:58:08.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T17:58:08.050+0000] {logging_mixin.py:190} INFO - [2025-04-06T17:58:08.050+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T17:58:08.066+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-04-06T18:15:22.198+0000] {processor.py:186} INFO - Started process (PID=80735) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:15:22.199+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T18:15:22.201+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:15:22.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:15:22.212+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:15:22.229+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:15:22.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T18:15:22.248+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:15:22.248+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T18:15:22.263+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.071 seconds
+[2025-04-06T18:16:41.572+0000] {processor.py:186} INFO - Started process (PID=80800) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:16:41.577+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T18:16:41.578+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:16:41.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:16:41.590+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:16:41.612+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:16:41.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T18:16:41.638+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:16:41.637+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T18:16:41.653+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.087 seconds
+[2025-04-06T18:33:51.102+0000] {processor.py:186} INFO - Started process (PID=80865) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:33:51.104+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T18:33:51.106+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:33:51.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:33:51.123+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T18:33:51.154+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:33:51.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T18:33:51.184+0000] {logging_mixin.py:190} INFO - [2025-04-06T18:33:51.184+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T18:33:51.199+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.106 seconds
+[2025-04-06T19:05:16.594+0000] {processor.py:186} INFO - Started process (PID=80930) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:05:16.596+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T19:05:16.597+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:16.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:05:16.608+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:05:16.625+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:16.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:05:16.642+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:16.642+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:05:16.655+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T19:06:37.220+0000] {processor.py:186} INFO - Started process (PID=80995) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:06:37.222+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T19:06:37.224+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:37.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:06:37.236+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:06:37.255+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:37.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:06:37.280+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:37.279+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:06:37.296+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.082 seconds
+[2025-04-06T19:57:11.376+0000] {processor.py:186} INFO - Started process (PID=81060) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:57:11.378+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T19:57:11.379+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:57:11.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:57:11.389+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:57:11.408+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:57:11.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:57:11.428+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:57:11.427+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:57:11.443+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.072 seconds
+[2025-04-06T19:58:30.942+0000] {processor.py:186} INFO - Started process (PID=81125) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:58:30.945+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T19:58:30.946+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:58:30.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:58:30.959+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T19:58:30.979+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:58:30.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:58:31.002+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:58:31.002+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:58:31.018+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.085 seconds
+[2025-04-06T20:30:16.373+0000] {processor.py:186} INFO - Started process (PID=81190) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:30:16.375+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T20:30:16.376+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:30:16.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:30:16.387+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:30:16.408+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:30:16.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T20:30:16.428+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:30:16.428+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T20:30:16.440+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.073 seconds
+[2025-04-06T20:31:35.309+0000] {processor.py:186} INFO - Started process (PID=81255) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:31:35.311+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T20:31:35.312+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:31:35.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:31:35.323+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:31:35.340+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:31:35.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T20:31:35.359+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:31:35.359+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T20:31:35.371+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T20:48:20.722+0000] {processor.py:186} INFO - Started process (PID=81320) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:48:20.725+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T20:48:20.726+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:48:20.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:48:20.738+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:48:20.755+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:48:20.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T20:48:20.773+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:48:20.773+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T20:48:20.786+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds
+[2025-04-06T20:49:40.361+0000] {processor.py:186} INFO - Started process (PID=81385) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:49:40.363+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T20:49:40.364+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:49:40.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:49:40.376+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:49:40.395+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:49:40.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T20:49:40.414+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:49:40.414+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T20:49:40.427+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.072 seconds
+[2025-04-06T20:58:17.349+0000] {processor.py:186} INFO - Started process (PID=81450) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:58:17.350+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T20:58:17.351+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:58:17.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:58:17.362+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T20:58:17.379+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:58:17.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T20:58:17.401+0000] {logging_mixin.py:190} INFO - [2025-04-06T20:58:17.401+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T20:58:17.420+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.076 seconds
+[2025-04-06T21:59:46.425+0000] {processor.py:186} INFO - Started process (PID=81515) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T21:59:46.428+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T21:59:46.430+0000] {logging_mixin.py:190} INFO - [2025-04-06T21:59:46.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T21:59:46.444+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T21:59:46.469+0000] {logging_mixin.py:190} INFO - [2025-04-06T21:59:46.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T21:59:46.492+0000] {logging_mixin.py:190} INFO - [2025-04-06T21:59:46.492+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T21:59:46.510+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.092 seconds
+[2025-04-06T22:01:31.364+0000] {processor.py:186} INFO - Started process (PID=81580) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:01:31.366+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T22:01:31.367+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:01:31.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:01:31.378+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:01:31.395+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:01:31.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T22:01:31.413+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:01:31.413+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T22:01:31.425+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.067 seconds
+[2025-04-06T22:17:52.126+0000] {processor.py:186} INFO - Started process (PID=81645) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:17:52.128+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T22:17:52.130+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:17:52.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:17:52.144+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:17:52.165+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:17:52.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T22:17:52.185+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:17:52.185+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T22:17:52.199+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.080 seconds
+[2025-04-06T22:33:46.784+0000] {processor.py:186} INFO - Started process (PID=81710) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:33:46.786+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T22:33:46.788+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:33:46.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:33:46.803+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:33:46.835+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:33:46.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T22:33:46.867+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:33:46.866+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T22:33:46.882+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.105 seconds
+[2025-04-06T22:35:56.032+0000] {processor.py:186} INFO - Started process (PID=81775) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:35:56.033+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T22:35:56.034+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:35:56.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:35:56.044+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T22:35:56.059+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:35:56.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T22:35:56.077+0000] {logging_mixin.py:190} INFO - [2025-04-06T22:35:56.077+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T22:35:56.088+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.062 seconds
+[2025-04-06T23:00:55.597+0000] {processor.py:186} INFO - Started process (PID=81840) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:00:55.598+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T23:00:55.599+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:00:55.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:00:55.610+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:00:55.628+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:00:55.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T23:00:55.646+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:00:55.646+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T23:00:55.659+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T23:18:10.357+0000] {processor.py:186} INFO - Started process (PID=81905) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:18:10.359+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T23:18:10.360+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:18:10.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:18:10.371+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:18:10.388+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:18:10.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T23:18:10.407+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:18:10.406+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T23:18:10.419+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-04-06T23:34:05.092+0000] {processor.py:186} INFO - Started process (PID=81970) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:34:05.095+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T23:34:05.096+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:34:05.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:34:05.106+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:34:05.122+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:34:05.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T23:34:05.142+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:34:05.142+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T23:34:05.154+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2025-04-06T23:50:49.567+0000] {processor.py:186} INFO - Started process (PID=82035) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:50:49.569+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T23:50:49.570+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:50:49.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:50:49.582+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:50:49.601+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:50:49.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T23:50:49.621+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:50:49.621+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T23:50:49.635+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.074 seconds
+[2025-04-06T23:51:44.769+0000] {processor.py:186} INFO - Started process (PID=82100) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:51:44.771+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-04-06T23:51:44.772+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:51:44.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:51:44.782+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-04-06T23:51:44.800+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:51:44.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T23:51:44.818+0000] {logging_mixin.py:190} INFO - [2025-04-06T23:51:44.817+0000] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T23:51:44.830+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
