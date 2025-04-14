@@ -102,7 +102,6 @@ def update_metadata(table_name, task_id, **kwargs):
     finally:
         cursor.close()
     
-
 def truncate_staging(table_name, **kwargs):
     pg_hook = PostgresHook(postgres_conn_id='PostgresSQL_connection_1')
     conn = pg_hook.get_conn()
@@ -153,6 +152,7 @@ tables = [
         'source_table': 'products',
         'staging_table': 'dim_product',
         'delta_column': 'product_id',
+        'delta_type' : 'string',
         'source_columns': ['product_id', 'product_name', 'category', 'subcategory'],
         'target_columns': ['product_id', 'product_name', 'category', 'subcategory']
     },
@@ -160,6 +160,7 @@ tables = [
         'source_table': 'sales',
         'staging_table': 'sales',
         'delta_column': 'transactional_date',
+        'delta_type' : 'date',
         'source_columns': ['transaction_id', 'transactional_date', 'product_id', 'customer_id', 'payment', 'credit_card', 
                           'loyalty_card', 'cost', 'quantity', 'price'],
         'target_columns': ['transaction_id', 'transactional_date', 'transactional_date_fk', 'product_id', 
