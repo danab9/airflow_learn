@@ -4,6 +4,7 @@ from airflow.utils.dates import days_ago
 from airflow.hooks.postgres_hook import PostgresHook
 import pandas as pd
 import re
+from datetime import datetime
 
 # Define the DAG
 dag = DAG(
@@ -13,6 +14,14 @@ dag = DAG(
     start_date=days_ago(1),
 )
 
+# Helper functions
+def parse_delta_column(value, delta_type):
+    if delta_type == 'date':
+        return datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
+    return str(value)
+
+
+# Functions
 def get_last_load(table_name, **kwargs):
     pg_hook = PostgresHook(postgres_conn_id='PostgresSQL_connection_1')
     conn = pg_hook.get_conn()
@@ -36,7 +45,7 @@ def get_last_load(table_name, **kwargs):
     finally:
         cursor.close()
 
-def query_and_insert_staging(source_table, staging_table, delta_column, source_columns, target_columns, **kwargs):
+def query_and_insert_staging(source_table, staging_table, delta_column, delta_type, source_columns, target_columns, **kwargs):
     ti = kwargs['ti']
     last_load = ti.xcom_pull(task_ids='get_last_load', key='last_load')
 
@@ -46,12 +55,14 @@ def query_and_insert_staging(source_table, staging_table, delta_column, source_c
     try:
         cursor = conn.cursor()
         col_str = ', '.join(source_columns)
+        delta_value = parse_delta_column(last_load, delta_type)
+        
         cursor.execute(
                 f"""
                 SELECT {col_str}
                 FROM public.{source_table}
                 WHERE {delta_column} > %s;
-                """, (str(last_load),)
+                """, (delta_value,)
         )  # Make sure last_load is passed as a string
         
         rows = cursor.fetchall()
@@ -193,6 +204,7 @@ for t in tables:
             'source_table': t['source_table'],
             'staging_table': t['staging_table'],
             'delta_column': t['delta_column'],
+            'delta_type': t['delta_type'],
             'source_columns': t['source_columns'],
             'target_columns': t['target_columns'],
         },
