@@ -154,10 +154,6 @@ def push_products_to_core():
     df['brand'] = df['product_name'].str.extract(r'\((.*?)\)', expand=False)  # extract brand from product_name
     df['product_name'] = df['product_name'].str.replace(r'\s*\(.*?\)', '', regex=True)  # remove brand from product_name
 
-    # Print the transformed DataFrame before insertion
-    print("Transformed data (first few rows):")
-    print(df.head())  # <-- Add this line to check the transformed data
-
     # Insert transformed data into the "Core" table
     for _, row in df.iterrows():
         insert_sql = """
@@ -259,7 +255,13 @@ metadata = PythonOperator(
     dag=dag,
 )
 
-truncate >> get_last >> insert >> metadata
+transform_insert_core = PythonOperator(
+    task_id='transform_products_insert_core',
+    python_callable=push_products_to_core,
+    dag=dag,
+)
+
+truncate >> get_last >> insert >> metadata >> transform_insert_core
 
 # 2. sales table
 truncate = PythonOperator(
