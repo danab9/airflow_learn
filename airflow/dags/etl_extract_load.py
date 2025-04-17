@@ -55,7 +55,7 @@ def get_last_load(table_name, delta_type, **kwargs):
     finally:
         cursor.close()
 
-def query_and_insert_staging(source_table, staging_table, delta_column, delta_type, source_columns, target_columns, **kwargs):
+def query_and_insert_staging(source_table, staging_table, delta_column, delta_type, columns, **kwargs):
     ti = kwargs['ti']
     last_load = ti.xcom_pull(task_ids='get_last_load', key='last_load')
 
@@ -64,7 +64,7 @@ def query_and_insert_staging(source_table, staging_table, delta_column, delta_ty
 
     try:
         cursor = conn.cursor()
-        col_str = ', '.join(source_columns)
+        col_str = ', '.join(columns)
         delta_value = parse_delta_column(last_load, delta_type)
         
         cursor.execute(
@@ -78,7 +78,7 @@ def query_and_insert_staging(source_table, staging_table, delta_column, delta_ty
         rows = cursor.fetchall()
         print(f"Fetched {len(rows)} new rows from {source_table}.") 
 
-        placeholders = ', '.join(['%s'] * len(target_columns)) # create placeholders for the number of columns
+        placeholders = ', '.join(['%s'] * len(columns)) # create placeholders for the number of columns
         insert_sql = f"""
             INSERT INTO "Staging"."{staging_table}" ({col_str})
             VALUES ({placeholders});
@@ -88,7 +88,7 @@ def query_and_insert_staging(source_table, staging_table, delta_column, delta_ty
             cursor.execute(insert_sql, row)
 
         if rows:
-            max_id = get_max_delta(rows, source_columns, delta_column)
+            max_id = get_max_delta(rows, columns, delta_column)
             ti.xcom_push(key=f'max_id_{staging_table}', value=max_id)
             
         conn.commit()
@@ -184,14 +184,14 @@ def update_dim_payment():
         # Get existing rows from dim_payment
         cursor.execute("""
             SELECT payment, loyalty_card
-            FROM "core".dim_payment
+            FROM core.dim_payment
         """)
         existing_rows = set(cursor.fetchall())
         new_rows = [row for row in staging_rows if row not in existing_rows]
 
         for row in new_rows:
             cursor.execute("""
-                INSERT INTO "Core".dim_payment (payment, loyalty_card)
+                INSERT INTO core.dim_payment (payment, loyalty_card)
                 VALUES (%s, %s)
             """, row)
 
@@ -202,28 +202,6 @@ def update_dim_payment():
     finally:
         cursor.close()
 
-# Define task parameters for each table
-# tables = [
-#     {
-#         'source_table': 'products',
-#         'staging_table': 'dim_product',
-#         'delta_column': 'product_id',
-#         'delta_type' : 'string',
-#         'source_columns': ['product_id', 'product_name', 'category', 'subcategory'],
-#         'target_columns': ['product_id', 'product_name', 'category', 'subcategory']
-#     },
-#     {
-#         'source_table': 'sales',
-#         'staging_table': 'sales',
-#         'delta_column': 'transactional_date',
-#         'delta_type' : 'date',
-#         'source_columns': ['transaction_id', 'transactional_date', 'product_id', 'customer_id', 'payment', 'credit_card', 
-#                           'loyalty_card', 'cost', 'quantity', 'price'],
-#         'target_columns': ['transaction_id', 'transactional_date', 'transactional_date_fk', 'product_id', 
-#                           'product_fk','customer_id', 'payment_fk', 'credit_card', 
-#                           'cost','quantity','price', 'total_cost', 'total_price', 'profit']
-#     }
-# ]
 
 product_params = {
     'source_table': 'products',
@@ -231,7 +209,7 @@ product_params = {
     'delta_column': 'product_id',
     'delta_type' : 'string',
     'source_columns': ['product_id', 'product_name', 'category', 'subcategory'],
-    'target_columns': ['product_id', 'product_name', 'category', 'subcategory']
+    'core_columns': ['product_id', 'product_name', 'category', 'subcategory']
 }
 
 sales_params = {
@@ -241,12 +219,11 @@ sales_params = {
     'delta_type' : 'date',
     'source_columns': ['transaction_id', 'transactional_date', 'product_id', 'customer_id', 'payment', 'credit_card', 
                         'loyalty_card', 'cost', 'quantity', 'price'],
-    'target_columns': ['transaction_id', 'transactional_date', 'transactional_date_fk', 'product_id', 
+    'core_columns': ['transaction_id', 'transactional_date', 'transactional_date_fk', 'product_id', 
                         'product_fk','customer_id', 'payment_fk', 'credit_card', 
                         'cost','quantity','price', 'total_cost', 'total_price', 'profit']
 }
 
-# task_objects = []
 # 1. products table
 truncate = PythonOperator(
     task_id=f'truncate_{product_params["staging_table"]}',
@@ -270,8 +247,7 @@ insert = PythonOperator(
         'staging_table': product_params['staging_table'],
         'delta_column': product_params['delta_column'],
         'delta_type': product_params['delta_type'],
-        'source_columns': product_params['source_columns'],
-        'target_columns': product_params['target_columns'],
+        'columns': product_params['source_columns'],
     },
     dag=dag,
 )
@@ -308,8 +284,7 @@ insert = PythonOperator(
         'staging_table': sales_params['staging_table'],
         'delta_column': sales_params['delta_column'],
         'delta_type': sales_params['delta_type'],
-        'source_columns': sales_params['source_columns'],
-        'target_columns': sales_params['target_columns'],
+        'columns': sales_params['source_columns'],
     },
     dag=dag,
 )
@@ -328,44 +303,3 @@ dim_payment = PythonOperator(
 )
 
 truncate >> get_last >> insert >> metadata >> dim_payment
-
-# for t in tables:
-#     truncate = PythonOperator(
-#         task_id=f'truncate_{t["staging_table"]}',
-#         python_callable=truncate_staging,
-#         op_kwargs={'table_name': t['staging_table']},
-#         dag=dag,
-#     )
-
-#     get_last = PythonOperator(
-#         task_id=f'get_last_load_{t["staging_table"]}',
-#         python_callable=get_last_load,
-#         op_kwargs={'table_name': t['staging_table']},
-#         dag=dag,
-#     )
-
-#     insert = PythonOperator(
-#         task_id=f'query_and_insert_{t["staging_table"]}',
-#         python_callable=query_and_insert_staging,
-#         op_kwargs={
-#             'source_table': t['source_table'],
-#             'staging_table': t['staging_table'],
-#             'delta_column': t['delta_column'],
-#             'delta_type': t['delta_type'],
-#             'source_columns': t['source_columns'],
-#             'target_columns': t['target_columns'],
-#         },
-#         dag=dag,
-#     )
-
-#     update = PythonOperator(
-#         task_id=f'update_metadata_{t["staging_table"]}',
-#         python_callable=update_metadata,
-#         op_kwargs={'table_name': t['staging_table'], 'task_id': f'query_and_insert_{t["staging_table"]}'},
-#         dag=dag,
-#     )
-
-#     truncate >> get_last >> insert >> update
-
-    # Optionally collect task objects for further use
-    # task_objects.extend([truncate, get_last, insert, update])
