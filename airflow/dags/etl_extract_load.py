@@ -203,41 +203,55 @@ def transform_fact_sales_to_core(**kwargs):
     conn = pg_hook.get_conn()
 
     sql = """
-            INSERT INTO core.sales (
-                transaction_id,
-                transactional_date,
-                transactional_date_fk,
-                product_id,
-                product_fk,
-                payment_fk,
-                customer_id,
-                credit_card,
-                cost,
-                quantity,
-                price,
-                total_price,
-                total_cost,
-                profit
-            )
-            SELECT DISTINCT ON (f.transaction_id)
-                f.transaction_id,
-                f.transactional_date,
-                EXTRACT(YEAR FROM f.transactional_date) * 10000 + EXTRACT(MONTH FROM f.transactional_date) * 100 + EXTRACT(DAY FROM f.transactional_date),
-                f.product_id,
-                p.product_PK,
-                d.payment_PK,
-                f.customer_id,
-                f.credit_card,
-                f.cost,
-                f.quantity,
-                f.price,
-                (f.price * f.quantity),
-                (f.cost * f.quantity),
-                (f.price * f.quantity - f.cost * f.quantity)
-            FROM "Staging".sales f
-            LEFT JOIN core.dim_payment d ON d.payment = COALESCE(f.payment, 'cash') AND d.loyalty_card = f.loyalty_card
-            LEFT JOIN core.dim_product p ON p.product_id = f.product_id
-            ORDER BY f.transaction_id, f.transactional_date DESC;
+INSERT INTO core.sales (
+    transaction_id,
+    transactional_date,
+    transactional_date_fk,
+    product_id,
+    product_fk,
+    payment_fk,
+    customer_id,
+    credit_card,
+    cost,
+    quantity,
+    price,
+    total_price,
+    total_cost,
+    profit
+)
+SELECT DISTINCT ON (f.transaction_id)
+    f.transaction_id,
+    f.transactional_date,
+    EXTRACT(YEAR FROM f.transactional_date) * 10000 + EXTRACT(MONTH FROM f.transactional_date) * 100 + EXTRACT(DAY FROM f.transactional_date),
+    f.product_id,
+    p.product_PK,
+    d.payment_PK,
+    f.customer_id,
+    f.credit_card,
+    f.cost,
+    f.quantity,
+    f.price,
+    (f.price * f.quantity),
+    (f.cost * f.quantity),
+    (f.price * f.quantity - f.cost * f.quantity)
+FROM "Staging".sales f
+LEFT JOIN core.dim_payment d ON d.payment = COALESCE(f.payment, 'cash') AND d.loyalty_card = f.loyalty_card
+LEFT JOIN core.dim_product p ON p.product_id = f.product_id
+ORDER BY f.transaction_id, f.transactional_date DESC
+ON CONFLICT (transaction_id) DO UPDATE SET
+    transactional_date = EXCLUDED.transactional_date,
+    transactional_date_fk = EXCLUDED.transactional_date_fk,
+    product_id = EXCLUDED.product_id,
+    product_fk = EXCLUDED.product_fk,
+    payment_fk = EXCLUDED.payment_fk,
+    customer_id = EXCLUDED.customer_id,
+    credit_card = EXCLUDED.credit_card,
+    cost = EXCLUDED.cost,
+    quantity = EXCLUDED.quantity,
+    price = EXCLUDED.price,
+    total_price = EXCLUDED.total_price,
+    total_cost = EXCLUDED.total_cost,
+    profit = EXCLUDED.profit;
 """
 
     try:
