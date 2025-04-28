@@ -198,6 +198,59 @@ def update_dim_payment():
     finally:
         cursor.close()
 
+def transform_fact_sales_to_core(**kwargs):
+    pg_hook = PostgresHook(postgres_conn_id='PostgresSQL_connection_1')
+    conn = pg_hook.get_conn()
+
+    sql = """
+            INSERT INTO core.sales (
+                transaction_id,
+                transactional_date,
+                transactional_date_fk,
+                product_id,
+                product_fk,
+                payment_fk,
+                customer_id,
+                credit_card,
+                cost,
+                quantity,
+                price,
+                total_price,
+                total_cost,
+                profit
+            )
+            SELECT DISTINCT ON (f.transaction_id)
+                f.transaction_id,
+                f.transactional_date,
+                EXTRACT(YEAR FROM f.transactional_date) * 10000 + EXTRACT(MONTH FROM f.transactional_date) * 100 + EXTRACT(DAY FROM f.transactional_date),
+                f.product_id,
+                p.product_PK,
+                d.payment_PK,
+                f.customer_id,
+                f.credit_card,
+                f.cost,
+                f.quantity,
+                f.price,
+                (f.price * f.quantity),
+                (f.cost * f.quantity),
+                (f.price * f.quantity - f.cost * f.quantity)
+            FROM "Staging".sales f
+            LEFT JOIN core.dim_payment d ON d.payment = COALESCE(f.payment, 'cash') AND d.loyalty_card = f.loyalty_card
+            LEFT JOIN core.dim_product p ON p.product_id = f.product_id
+            ORDER BY f.transaction_id, f.transactional_date DESC;
+"""
+
+    try:
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        conn.commit()
+        print("Successfully inserted data into core.sales")
+
+    except Exception as e:  
+        print(f"Error fetching data from sales: {e}")
+    finally:
+        cursor.close()
+
 
 product_params = {
     'source_table': 'products',
@@ -255,13 +308,13 @@ metadata = PythonOperator(
     dag=dag,
 )
 
-transform_insert_core = PythonOperator(
+transform_products_insert_core = PythonOperator(
     task_id='transform_products_insert_core',
     python_callable=push_products_to_core,
     dag=dag,
 )
 
-truncate >> get_last >> insert >> metadata >> transform_insert_core
+truncate >> get_last >> insert >> metadata >> transform_products_insert_core 
 
 # 2. sales table
 truncate = PythonOperator(
@@ -304,4 +357,11 @@ dim_payment = PythonOperator(
     dag=dag,
 )
 
-truncate >> get_last >> insert >> metadata >> dim_payment
+transform_sales_insert_core = PythonOperator(
+    task_id='transform_facts_insert_core',
+    python_callable=transform_fact_sales_to_core,
+    dag=dag,
+)
+
+
+truncate >> get_last >> insert >> metadata >> dim_payment >> transform_sales_insert_core
