@@ -9,3 +9,8 @@ This project is an Apache Airflow implementation of the data pipeline introduced
 -   Implements ETL for structured data.
 -   Focuses on incremental updates via delta extraction.
 -   Integrates with PostgreSQL.
+____
+
+I connected the PostgreSQL database to Metabase, to create a data analysis dashboard.
+
+![alt text](images/image.png)
